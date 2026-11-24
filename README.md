@@ -77,11 +77,12 @@ Sami Kandil. J'étais le **référent réseau** et j'ai fait 198 des 640 commits
   partie pleine ou déjà lancée, pause et reprise ;
 - la prédiction et la réconciliation du joueur et de ses tirs, les paquets delta, le heartbeat ;
 - côté serveur : déplacement des joueurs, tirs, collisions et dégâts, murs, modules, envoi des ennemis et de leurs
-  missiles, portage sur le serveur des systèmes de l'IA humanoïde ;
+  missiles, portage sur le serveur de l'IA humanoïde (ramasser, attraper et lancer un ennemi, se dupliquer) et
+  ses paquets réseau ;
 - l'outil de simulation de latence, la CI et les correctifs de compilation multiplateforme.
 
-Mes coéquipiers ont écrit le moteur ECS, le rendu et les menus du client, les ennemis et le boss, l'IA humanoïde
-et l'accessibilité.
+Mes coéquipiers ont écrit le moteur ECS, le rendu et les menus du client, les ennemis et le boss, et
+l'accessibilité ; Thibaut Louis a conçu l'IA humanoïde et ses animations.
 
 Pour cette présentation, j'ai corrigé deux bugs restés dans la version rendue : des tirs qui restaient figés à
 l'écran quand un message de suppression se perdait, et le score qui n'était plus envoyé au client après une fusion.
